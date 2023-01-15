@@ -60,7 +60,7 @@ The following dependencies are used:
 5. [Numpy](https://numpy.org/) (1.21.5) - Data calculations + Pandas support
 6. [TensorFlow](https://www.tensorflow.org/) (2.0.0+) - Deep neural network creation
 7. [Keras](https://keras.io/about/) (2.9.0) - Deep neural network creation
-8. [Scikit-learn](1.1.3) - Machine learning tools and methods
+8. [Scikit-learn](https://scikit-learn.org/stable/index.html) (1.1.3) - Machine learning tools and methods
 
 ---
 
