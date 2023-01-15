@@ -48,6 +48,12 @@ The results of each model were about the same and none of them were significantl
     * loss: 0.5507
     * accuracy: 0.7318
 
+Each model is saved in the `/Resources` folder in .h5 files: 
+1. [Model 1](./Resources/AlphabetSoup.h5)
+2. [Model 2](./Resources/AlphabetSoup_A1.h5)
+3. [Model 3](./Resources/AlphabetSoup_A2.h5)
+4. [Model 4](./Resources/AlphabetSoup_A3.h5)
+
 ---
 
 ## Technologies
