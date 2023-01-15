@@ -1,7 +1,9 @@
 # VC Funding DNN Classification - UW FinTech Bootcamp Module 13 Challenge 
 
-### Data Used
+In this project I create and compare 4 deep neural networks trained to predict if a company will be successful if funded by a theoretical venture capital firm. These models are binary classification models that are evaluated on their accuracy to predict the yes/no values of if the company was successful after being funded. 
 
+### Data Used
+[applicants_data.csv](./Resources/applicants_data.csv) - Theoretical data of companies and their funding information; Label is the IS_SUCCESSFUL column
 
 ### Summary
 
