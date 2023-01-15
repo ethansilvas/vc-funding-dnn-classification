@@ -66,7 +66,9 @@ The following dependencies are used:
 
 ## Installation Guide
 
-If you would like to run the program in JupyterLab, install the [Anaconda](https://www.anaconda.com/products/distribution) distribution and run `jupyter lab` in a conda dev environment.
+If you would like to run the program in JupyterLab, install the [Anaconda](https://www.anaconda.com/products/distribution) or [Miniforge for M1 Macbooks](https://github.com/conda-forge/miniforge) distribution and run `jupyter lab` in a conda dev environment. 
+
+I use an M1 Macbook which cannot directly support TensorFlow, but [this guide](https://github.com/mrdbourke/m1-machine-learning-test) can be followed to install Apple's version of TensorFlow. For this specific dataset, it is likely better to use an M1 Macbook's CPU rather than GPU which is why I included the `tf.config.set_visible_devices([], 'GPU')` in the first cell of [venture_funding_with_deep_learning.ipynb](./venture_funding_with_deep_learning.ipynb).
 
 To ensure that your notebook runs properly you can use the [requirements.txt](/Resources/requirements.txt) file to create an exact copy of the conda dev environment used in development of this project. 
 
@@ -78,7 +80,7 @@ Then install the requirements with `conda install --name myenv --file requiremen
 
 ## Usage
 
-The Jupyter notebook []() will provide all steps of the data collection, preparation, and analysis. Data visualizations are shown inline and accompanying analysis responses are provided. It can be uploaded to Google Colab with the provided .csv files in `/Resources`, or can be viewed in the [GitHub uploaded version]()
+The Jupyter notebook [venture_funding_with_deep_learning.ipynb](./venture_funding_with_deep_learning.ipynb) will provide all steps of the data collection, preparation, and analysis. Data visualizations are shown inline and accompanying analysis responses are provided. It can be uploaded to Google Colab with the provided .csv files in `/Resources`, or can be viewed in the [GitHub uploaded version](https://colab.research.google.com/github/ethansilvas/vc-funding-dnn-classification/blob/main/GC_venture_funding_with_deep_learning.ipynb)
 
 ---
 
