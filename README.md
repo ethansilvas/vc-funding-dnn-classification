@@ -4,6 +4,8 @@ In this project I create and compare 4 deep neural networks trained to predict i
 
 This is a TensorFlow project that I run on an M1 Mac, but it can be viewed in Google Colab! -> <a href="https://colab.research.google.com/github/ethansilvas/vc-funding-dnn-classification/blob/main/GC_venture_funding_with_deep_learning.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
+---
+
 ### Data Used
 [applicants_data.csv](./Resources/applicants_data.csv) - Theoretical data of companies and their funding information; Label is the IS_SUCCESSFUL column
 
