@@ -58,7 +58,9 @@ The following dependencies are used:
 3. [Pandas](https://github.com/pandas-dev/pandas) (1.3.5) - Data analysis
 4. [Matplotlib](https://github.com/matplotlib/matplotlib) (3.5.1) - Data visualization
 5. [Numpy](https://numpy.org/) (1.21.5) - Data calculations + Pandas support
-6. [TensorFlow]
+6. [TensorFlow](https://www.tensorflow.org/) (2.0.0+) - Deep neural network creation
+7. [Keras](https://keras.io/about/) (2.9.0) - Deep neural network creation
+8. [Scikit-learn](1.1.3) - Machine learning tools and methods
 
 ---
 
