@@ -25,7 +25,26 @@ Next I create another model that is exactly like the first model but instead rem
 
 ![Outputs showing heavily imbalanced features with 30,000 counts of one value and 30 or less values for the other](./Resources/Images/bad_features.png)
 
-Finally, I create a model that 
+Finally, I create a model that tries many different hyperparameters. This model uses three hidden layers with tanh and ReLU activation functions, the Adamax function is used as an optimizer, and the model is only trained for 20 epochs compared to 50 for all the other models. 
+
+![TensorFlow code showing creation of Sequential() model with 3 hidden layers using tanh and relu activation functions, and an output layer with sigmoid activation](./Resources/Images/model3.png)
+
+### Results
+
+The results of each model were about the same and none of them were significantly better than the others. Many variations of hyperparameter tunings were used and these were the best performances. If I were to expand on this dataset for better accuracy I may instead try different models since an accuracy of around 0.73 seemed to be the best performance I could get with a deep neural network. Even just using one hidden layer provided about the same performance. 
+
+* Model 1 - All features and two hidden layers
+    * loss: 0.5552
+    * accuracy: 0.7300
+* Model 2 - Increased number of hidden layers
+    * loss: 0.5617
+    * accuracy: 0.7294
+* Model 3 - Reduced number of features
+    * loss: 0.5571
+    * accuracy: 0.7297
+* Model 4 - Reduced number of features, 3 hidden layers, ReLU/tanh activators, Adamax optimizer, and 20 epochs
+    * loss: 0.5507
+    * accuracy: 0.7318
 
 ---
 
